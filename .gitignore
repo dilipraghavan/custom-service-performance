@@ -1,0 +1,34 @@
+# WordPress-specific ignores
+# Ignore the entire WordPress core and common directories
+# (uncomment these if your repository is the full WordPress installation)
+# wp-admin/
+# wp-includes/
+/wp-content/uploads/
+/wp-content/blogs.dir/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/mu-plugins/
+
+# Caching plugins
+/wp-content/cache/
+
+# Ignore other plugins and themes (if they are not part of your project)
+/wp-content/plugins/
+/wp-content/themes/
+
+# Common PHP & Composer ignores
+/vendor/
+/composer.lock
+
+# Log files and temporary files
+*.log
+*.sql
+*.zip
+*.tar.gz
+.DS_Store
+.idea/
+.vscode/
+
+# Build tool ignores
+/node_modules/
+/dist/
