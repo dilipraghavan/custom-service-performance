@@ -13,6 +13,10 @@ if (!defined('ABSPATH'))
  * Text Domain: custom-service-performance
  */
 
+require_once __DIR__ . '/vendor/autoload.php';
+use Dilip\CustomServicePerformance\Loader;
+
+Loader::init();
 
 require_once(plugin_dir_path(__FILE__).'includes/class-custom-service-performance.php');
 

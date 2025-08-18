@@ -1,0 +1,15 @@
+{
+  "intelephense.environment.phpVersion": "8.2",
+  "intelephense.maxMemory": 4096,
+  "intelephense.environment.includePaths": [
+    "vendor/php-stubs/wordpress-stubs",
+    "vendor/php-stubs/woocommerce-stubs"
+  ],
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/vendor/**",
+    "!vendor/php-stubs/**"
+  ],
+  "intelephense.files.associations": ["*.php", "*.phtml"]
+}
