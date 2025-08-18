@@ -241,7 +241,8 @@ class CustomServicePerformance
                     $query->the_post();
                     $postId = get_the_id();
 
-                    $service_icon = esc_url(get_post_meta($postId, 'service_icon', true));
+                    $service_icon_id = intval(get_post_meta($postId, 'service_icon', true));
+                    $service_icon = wp_get_attachment_image_url($service_icon_id);
                     $service_name = sanitize_text_field(get_post_meta($postId, 'service_name', true));
                     $service_description = sanitize_text_field(get_post_meta($postId, 'service_description', true));
 
