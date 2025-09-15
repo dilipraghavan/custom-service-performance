@@ -1,20 +1,21 @@
 {
-    "name": "dilip/custom-service-performance",
-    "type": "project",
-    "license": "GPL-2.0-or-later",
-    "autoload": {
-        "psr-4": {
-            "Dilip\\CustomServicePerformance\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Dilip Raghavan",
-            "email": "dilip.raghavan.cse@gmail.com"
-        }
-    ],
-    "require-dev": {
-        "php-stubs/wordpress-stubs": "^6.8",
-        "php-stubs/woocommerce-stubs": "^10.1"
+  "name": "wpshiftstudio/custom-service-performance",
+  "description": "A plugin to demonstrate WordPress development.",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "WPSHIFTSTUDIO\\CustomServicePerformance\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "Dilip Raghavan",
+      "email": "dilip@wpshiftstudio.com"
+    }
+  ],
+  "require-dev": {
+    "php-stubs/wordpress-stubs": "^6.8",
+    "php-stubs/woocommerce-stubs": "^10.1"
+  }
 }
